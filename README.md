@@ -8,7 +8,7 @@ controller and the IMU. The IMU measurements indicate the current angle of the q
 smoothed by a Kalman filter. The control output are motor signals for the 4 brushless motors.
 All code is written for the Arduino IDE.
 ![Arduino](./pictures/1.jpg)
-![Arduino](./pictures/4.jpg)  
+![Arduino](./pictures/4.png)
 
 Additionally, the quadrocopter was equipped with a Raspberry Pi to stream a USB camera to a smartphone over Wifi.
 
