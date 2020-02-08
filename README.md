@@ -2,13 +2,13 @@
 
 ## Description
 This repository holds the code to calibrate, test and control a Quadrocopter with an arduino.
-![./pictures/3.jpg](Quadrocopter)
+![Quadrocopter](./pictures/3.jpg)
 The core of the algorithm is a PID controller which reacts to control input by the radio
 controller and the IMU. The IMU measurements indicate the current angle of the quadrocopter are
 smoothed by a Kalman filter. The control output are motor signals for the 4 brushless motors.
 All code is written for the Arduino IDE.
-![./pictures/1.jpg](Arduino)
-![./pictures/4.jpg](Arduino)
+![Arduino](./pictures/1.jpg)
+![Arduino](./pictures/4.jpg)  
 
 Additionally, the quadrocopter was equipped with a Raspberry Pi to stream a USB camera to a smartphone over Wifi.
 
